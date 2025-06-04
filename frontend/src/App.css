@@ -1,0 +1,30 @@
+/* Base styles for the EduSync LMS application */
+
+/* Page wrapper styles */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content container */
+.main-content {
+  flex: 1 0 auto;
+  padding: 1.5rem 0;
+}
+
+/* Custom animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
